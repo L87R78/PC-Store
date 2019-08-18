@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/PC_Store/static/css/main.acdee087.chunk.css",
-    "main.js": "/PC_Store/static/js/main.f84502c1.chunk.js",
-    "main.js.map": "/PC_Store/static/js/main.f84502c1.chunk.js.map",
+    "main.css": "/PC_Store/static/css/main.17d968d1.chunk.css",
+    "main.js": "/PC_Store/static/js/main.e8129b9b.chunk.js",
+    "main.js.map": "/PC_Store/static/js/main.e8129b9b.chunk.js.map",
     "runtime~main.js": "/PC_Store/static/js/runtime~main.d2e3278c.js",
     "runtime~main.js.map": "/PC_Store/static/js/runtime~main.d2e3278c.js.map",
     "static/js/2.ccf209ba.chunk.js": "/PC_Store/static/js/2.ccf209ba.chunk.js",
     "static/js/2.ccf209ba.chunk.js.map": "/PC_Store/static/js/2.ccf209ba.chunk.js.map",
     "index.html": "/PC_Store/index.html",
-    "precache-manifest.5b1366dac7508731dd197f31e0ec41cd.js": "/PC_Store/precache-manifest.5b1366dac7508731dd197f31e0ec41cd.js",
+    "precache-manifest.e143746591667e5309279d33dd09f7d1.js": "/PC_Store/precache-manifest.e143746591667e5309279d33dd09f7d1.js",
     "service-worker.js": "/PC_Store/service-worker.js",
-    "static/css/main.acdee087.chunk.css.map": "/PC_Store/static/css/main.acdee087.chunk.css.map",
+    "static/css/main.17d968d1.chunk.css.map": "/PC_Store/static/css/main.17d968d1.chunk.css.map",
     "static/media/VR.PNG": "/PC_Store/static/media/VR.4560c93f.PNG",
     "static/media/App.scss": "/PC_Store/static/media/components_background.e5c3636c.jpg",
-    "static/media/center_image.PNG": "/PC_Store/static/media/center_image.23303e19.PNG",
     "static/media/configure_Your PC.PNG": "/PC_Store/static/media/configure_Your PC.895f2e9e.PNG",
     "static/media/contacts_image.PNG": "/PC_Store/static/media/contacts_image.69047b5f.PNG",
     "static/media/desktops.PNG": "/PC_Store/static/media/desktops.8e75f25a.PNG",
     "static/media/displays.PNG": "/PC_Store/static/media/displays.098912ff.PNG",
     "static/media/laptops.PNG": "/PC_Store/static/media/laptops.c81bd0b7.PNG",
-    "static/media/not_found_image.PNG": "/PC_Store/static/media/not_found_image.2aa3ea87.PNG"
+    "static/media/not_found_image.PNG": "/PC_Store/static/media/not_found_image.2aa3ea87.PNG",
+    "static/media/top_image.png": "/PC_Store/static/media/top_image.1e53babb.png"
   }
 }
