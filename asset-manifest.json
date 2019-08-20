@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PC_Store/static/css/main.aa8f8d38.chunk.css",
-    "main.js": "/PC_Store/static/js/main.245c4dd4.chunk.js",
-    "main.js.map": "/PC_Store/static/js/main.245c4dd4.chunk.js.map",
+    "main.js": "/PC_Store/static/js/main.9f14e902.chunk.js",
+    "main.js.map": "/PC_Store/static/js/main.9f14e902.chunk.js.map",
     "runtime~main.js": "/PC_Store/static/js/runtime~main.d2e3278c.js",
     "runtime~main.js.map": "/PC_Store/static/js/runtime~main.d2e3278c.js.map",
-    "static/js/2.30ae35b8.chunk.js": "/PC_Store/static/js/2.30ae35b8.chunk.js",
-    "static/js/2.30ae35b8.chunk.js.map": "/PC_Store/static/js/2.30ae35b8.chunk.js.map",
+    "static/js/2.532e5dcb.chunk.js": "/PC_Store/static/js/2.532e5dcb.chunk.js",
+    "static/js/2.532e5dcb.chunk.js.map": "/PC_Store/static/js/2.532e5dcb.chunk.js.map",
     "index.html": "/PC_Store/index.html",
-    "precache-manifest.26bab0871429f0d387ccab482d7c05f3.js": "/PC_Store/precache-manifest.26bab0871429f0d387ccab482d7c05f3.js",
+    "precache-manifest.8ecc7bd499e493be16372bae6023afe4.js": "/PC_Store/precache-manifest.8ecc7bd499e493be16372bae6023afe4.js",
     "service-worker.js": "/PC_Store/service-worker.js",
     "static/css/main.aa8f8d38.chunk.css.map": "/PC_Store/static/css/main.aa8f8d38.chunk.css.map",
     "static/media/VR.PNG": "/PC_Store/static/media/VR.4560c93f.PNG",
@@ -17,7 +17,6 @@
     "static/media/configure_Your PC.PNG": "/PC_Store/static/media/configure_Your PC.895f2e9e.PNG",
     "static/media/contacts_image.PNG": "/PC_Store/static/media/contacts_image.69047b5f.PNG",
     "static/media/desktops.PNG": "/PC_Store/static/media/desktops.8e75f25a.PNG",
-    "static/media/displays.PNG": "/PC_Store/static/media/displays.098912ff.PNG",
     "static/media/laptops.PNG": "/PC_Store/static/media/laptops.c81bd0b7.PNG",
     "static/media/not_found_image.PNG": "/PC_Store/static/media/not_found_image.2aa3ea87.PNG"
   }
