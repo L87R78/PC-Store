@@ -1,31 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b39dd20d6cfdae14888c6707d966115",
+    "revision": "5a6366828f4dfff7ec1cbe22fdb0f7c5",
     "url": "/PC_Store/index.html"
   },
   {
-    "revision": "8677355e243e0c954828",
-    "url": "/PC_Store/static/css/main.5df1d94b.chunk.css"
+    "revision": "2b53314b72faa9410d58",
+    "url": "/PC_Store/static/css/main.c1429012.chunk.css"
   },
   {
-    "revision": "586913d481db22362c03",
-    "url": "/PC_Store/static/js/2.f1c95e5e.chunk.js"
+    "revision": "7021e0a1ab4dbe3f9e30",
+    "url": "/PC_Store/static/js/2.1e260996.chunk.js"
   },
   {
-    "revision": "8677355e243e0c954828",
-    "url": "/PC_Store/static/js/main.b963c466.chunk.js"
+    "revision": "2b53314b72faa9410d58",
+    "url": "/PC_Store/static/js/main.3df13662.chunk.js"
   },
   {
     "revision": "b3fac533d43be5d34217",
     "url": "/PC_Store/static/js/runtime~main.d2e3278c.js"
-  },
-  {
-    "revision": "4560c93f7da86906c430531e068616b3",
-    "url": "/PC_Store/static/media/VR.4560c93f.PNG"
-  },
-  {
-    "revision": "895f2e9e15fc76ebe7113e829ef693e5",
-    "url": "/PC_Store/static/media/configure_Your PC.895f2e9e.PNG"
   },
   {
     "revision": "69047b5f3b33d6a14470d4a16bcc33a5",
