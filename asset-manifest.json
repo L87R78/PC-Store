@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PC_Store/static/css/main.d9528ba8.chunk.css",
+    "main.css": "/PC_Store/static/css/main.7a2b2db9.chunk.css",
     "main.js": "/PC_Store/static/js/main.cdf465b3.chunk.js",
     "main.js.map": "/PC_Store/static/js/main.cdf465b3.chunk.js.map",
     "runtime~main.js": "/PC_Store/static/js/runtime~main.d2e3278c.js",
@@ -8,9 +8,9 @@
     "static/js/2.bf670bf5.chunk.js": "/PC_Store/static/js/2.bf670bf5.chunk.js",
     "static/js/2.bf670bf5.chunk.js.map": "/PC_Store/static/js/2.bf670bf5.chunk.js.map",
     "index.html": "/PC_Store/index.html",
-    "precache-manifest.5f750dae09cabb3e2e4c31cb8e9fe80d.js": "/PC_Store/precache-manifest.5f750dae09cabb3e2e4c31cb8e9fe80d.js",
+    "precache-manifest.b05ea20c43e63e1f4836db6f4e777202.js": "/PC_Store/precache-manifest.b05ea20c43e63e1f4836db6f4e777202.js",
     "service-worker.js": "/PC_Store/service-worker.js",
-    "static/css/main.d9528ba8.chunk.css.map": "/PC_Store/static/css/main.d9528ba8.chunk.css.map",
+    "static/css/main.7a2b2db9.chunk.css.map": "/PC_Store/static/css/main.7a2b2db9.chunk.css.map",
     "static/media/contacts_image.PNG": "/PC_Store/static/media/contacts_image.69047b5f.PNG",
     "static/media/desktops.PNG": "/PC_Store/static/media/desktops.8e75f25a.PNG",
     "static/media/App.scss": "/PC_Store/static/media/home.58df52dd.jpg",
