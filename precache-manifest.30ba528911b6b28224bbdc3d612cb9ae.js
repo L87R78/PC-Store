@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c40d91803d0d53b78d84062440f5ccd2",
+    "revision": "2e3d869244103d790a5e61812072c9c3",
     "url": "/PC_Store/index.html"
   },
   {
-    "revision": "6b6dd49dabc3e811c209",
-    "url": "/PC_Store/static/css/main.5acd5528.chunk.css"
+    "revision": "a9e751ce34f9dc6feaff",
+    "url": "/PC_Store/static/css/main.73c71ca3.chunk.css"
   },
   {
-    "revision": "6249449e5b7cdd549c9e",
-    "url": "/PC_Store/static/js/2.947f8d63.chunk.js"
+    "revision": "b960e3f7a11ffb2fdb8b",
+    "url": "/PC_Store/static/js/2.c6bcedfc.chunk.js"
   },
   {
-    "revision": "6b6dd49dabc3e811c209",
-    "url": "/PC_Store/static/js/main.539e7b5a.chunk.js"
+    "revision": "a9e751ce34f9dc6feaff",
+    "url": "/PC_Store/static/js/main.f014708a.chunk.js"
   },
   {
     "revision": "b3fac533d43be5d34217",
