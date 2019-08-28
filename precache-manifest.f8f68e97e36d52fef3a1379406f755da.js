@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad46b8a16c97a7fdd77c7405812874f0",
+    "revision": "d020b01d3bd52de53d5fa1cca53dacab",
     "url": "/PC_Store/index.html"
   },
   {
-    "revision": "65ae4d5c175f2134ec13",
-    "url": "/PC_Store/static/css/main.c75c1d10.chunk.css"
+    "revision": "f77eceb09bb0243091b1",
+    "url": "/PC_Store/static/css/main.a8888e92.chunk.css"
   },
   {
     "revision": "6249449e5b7cdd549c9e",
     "url": "/PC_Store/static/js/2.947f8d63.chunk.js"
   },
   {
-    "revision": "65ae4d5c175f2134ec13",
-    "url": "/PC_Store/static/js/main.d2fe5696.chunk.js"
+    "revision": "f77eceb09bb0243091b1",
+    "url": "/PC_Store/static/js/main.2f5d5daf.chunk.js"
   },
   {
     "revision": "b3fac533d43be5d34217",
     "url": "/PC_Store/static/js/runtime~main.d2e3278c.js"
+  },
+  {
+    "revision": "aa1abe08d40a20b715db3e4a2717eaaa",
+    "url": "/PC_Store/static/media/PCI.aa1abe08.PNG"
   },
   {
     "revision": "cfff524ff0bc1d978aad9150a1434bd6",
@@ -40,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PC_Store/static/media/desktops.8e75f25a.PNG"
   },
   {
+    "revision": "ae50bdaaaa7318f80420527d8ead7a6e",
+    "url": "/PC_Store/static/media/encryption.ae50bdaa.PNG"
+  },
+  {
     "revision": "e7e9ae5db2d82a1dd75b35cad6e27044",
     "url": "/PC_Store/static/media/gaming_media.e7e9ae5d.PNG"
   },
@@ -54,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c81bd0b749c7110bdc67f3bb154cbf03",
     "url": "/PC_Store/static/media/laptops.c81bd0b7.PNG"
+  },
+  {
+    "revision": "7318ab4f0a5a2059ba0aae6642d58d3a",
+    "url": "/PC_Store/static/media/memory.7318ab4f.PNG"
   },
   {
     "revision": "9de2fa8e003658bd34d2fbb70f2579f4",
@@ -72,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PC_Store/static/media/overclocked.33972157.PNG"
   },
   {
+    "revision": "e51e62b0e9ebe602b71366b2c6eb4386",
+    "url": "/PC_Store/static/media/overclocking.e51e62b0.PNG"
+  },
+  {
     "revision": "58cea428bfd1fb5c132a8c76d7129e98",
     "url": "/PC_Store/static/media/paypal.58cea428.PNG"
   },
@@ -82,5 +98,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9d8764fcae2c0f80a2dc0f5b99282301",
     "url": "/PC_Store/static/media/tested.9d8764fc.PNG"
+  },
+  {
+    "revision": "809ba6ba39676b722d2db6d65c87898e",
+    "url": "/PC_Store/static/media/turbo_01.809ba6ba.PNG"
+  },
+  {
+    "revision": "a5aaf2e963805b81b31b74c7e6112524",
+    "url": "/PC_Store/static/media/turbo_02.a5aaf2e9.PNG"
   }
 ]);
