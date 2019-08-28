@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/PC_Store/static/css/main.66c8f101.chunk.css",
-    "main.js": "/PC_Store/static/js/main.3079bce9.chunk.js",
-    "main.js.map": "/PC_Store/static/js/main.3079bce9.chunk.js.map",
+    "main.css": "/PC_Store/static/css/main.dd48a951.chunk.css",
+    "main.js": "/PC_Store/static/js/main.6a84c8ca.chunk.js",
+    "main.js.map": "/PC_Store/static/js/main.6a84c8ca.chunk.js.map",
     "runtime~main.js": "/PC_Store/static/js/runtime~main.d2e3278c.js",
     "runtime~main.js.map": "/PC_Store/static/js/runtime~main.d2e3278c.js.map",
     "static/js/2.947f8d63.chunk.js": "/PC_Store/static/js/2.947f8d63.chunk.js",
     "static/js/2.947f8d63.chunk.js.map": "/PC_Store/static/js/2.947f8d63.chunk.js.map",
     "index.html": "/PC_Store/index.html",
-    "precache-manifest.7dc8674bd16f60f31bd8ce6100e89298.js": "/PC_Store/precache-manifest.7dc8674bd16f60f31bd8ce6100e89298.js",
+    "precache-manifest.aeeaf7364a2dc4b50ee018a33208b41e.js": "/PC_Store/precache-manifest.aeeaf7364a2dc4b50ee018a33208b41e.js",
     "service-worker.js": "/PC_Store/service-worker.js",
-    "static/css/main.66c8f101.chunk.css.map": "/PC_Store/static/css/main.66c8f101.chunk.css.map",
+    "static/css/main.dd48a951.chunk.css.map": "/PC_Store/static/css/main.dd48a951.chunk.css.map",
+    "static/media/acclaimed.PNG": "/PC_Store/static/media/acclaimed.cfff524f.PNG",
     "static/media/contacts_image.PNG": "/PC_Store/static/media/contacts_image.69047b5f.PNG",
     "static/media/desktops.PNG": "/PC_Store/static/media/desktops.8e75f25a.PNG",
+    "static/media/headaches.PNG": "/PC_Store/static/media/headaches.c0cb0f6a.PNG",
     "static/media/App.scss": "/PC_Store/static/media/home.58df52dd.jpg",
     "static/media/laptops.PNG": "/PC_Store/static/media/laptops.c81bd0b7.PNG",
-    "static/media/not_found_image.PNG": "/PC_Store/static/media/not_found_image.2aa3ea87.PNG"
+    "static/media/motherboard.PNG": "/PC_Store/static/media/motherboard.9de2fa8e.PNG",
+    "static/media/not_found_image.PNG": "/PC_Store/static/media/not_found_image.2aa3ea87.PNG",
+    "static/media/num.PNG": "/PC_Store/static/media/num.4fcb86ca.PNG",
+    "static/media/overclocked.PNG": "/PC_Store/static/media/overclocked.33972157.PNG",
+    "static/media/paypal.PNG": "/PC_Store/static/media/paypal.58cea428.PNG",
+    "static/media/tested.PNG": "/PC_Store/static/media/tested.9d8764fc.PNG"
   }
 }
