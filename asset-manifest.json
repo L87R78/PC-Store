@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PC_Store/static/css/main.54f8d4ba.chunk.css",
-    "main.js": "/PC_Store/static/js/main.572906bc.chunk.js",
-    "main.js.map": "/PC_Store/static/js/main.572906bc.chunk.js.map",
+    "main.css": "/PC_Store/static/css/main.f997c12e.chunk.css",
+    "main.js": "/PC_Store/static/js/main.b7af6dc7.chunk.js",
+    "main.js.map": "/PC_Store/static/js/main.b7af6dc7.chunk.js.map",
     "runtime~main.js": "/PC_Store/static/js/runtime~main.d2e3278c.js",
     "runtime~main.js.map": "/PC_Store/static/js/runtime~main.d2e3278c.js.map",
-    "static/js/2.68acd3b4.chunk.js": "/PC_Store/static/js/2.68acd3b4.chunk.js",
-    "static/js/2.68acd3b4.chunk.js.map": "/PC_Store/static/js/2.68acd3b4.chunk.js.map",
+    "static/js/2.2f5457b5.chunk.js": "/PC_Store/static/js/2.2f5457b5.chunk.js",
+    "static/js/2.2f5457b5.chunk.js.map": "/PC_Store/static/js/2.2f5457b5.chunk.js.map",
     "index.html": "/PC_Store/index.html",
-    "precache-manifest.cbaac577bde40558e813ca456fcaf817.js": "/PC_Store/precache-manifest.cbaac577bde40558e813ca456fcaf817.js",
+    "precache-manifest.1c8ec3ee9c81f5c88920b2ff650d2c8f.js": "/PC_Store/precache-manifest.1c8ec3ee9c81f5c88920b2ff650d2c8f.js",
     "service-worker.js": "/PC_Store/service-worker.js",
-    "static/css/main.54f8d4ba.chunk.css.map": "/PC_Store/static/css/main.54f8d4ba.chunk.css.map",
+    "static/css/main.f997c12e.chunk.css.map": "/PC_Store/static/css/main.f997c12e.chunk.css.map",
     "static/media/CPU.PNG": "/PC_Store/static/media/CPU.91e65ba3.PNG",
     "static/media/GDDR6.PNG": "/PC_Store/static/media/GDDR6.5f838acf.PNG",
     "static/media/PCI.PNG": "/PC_Store/static/media/PCI.ecd5e77e.PNG",
@@ -36,7 +36,7 @@
     "static/media/features_08.PNG": "/PC_Store/static/media/features_08.4af92663.PNG",
     "static/media/fullHD.PNG": "/PC_Store/static/media/fullHD.b70f0785.PNG",
     "static/media/gaming_media.PNG": "/PC_Store/static/media/gaming_media.e7e9ae5d.PNG",
-    "static/media/geforce.PNG": "/PC_Store/static/media/geforce.352039bf.PNG",
+    "static/media/geforce.PNG": "/PC_Store/static/media/geforce.f26f2d55.PNG",
     "static/media/gpu_architecture.PNG": "/PC_Store/static/media/gpu_architecture.8723f772.PNG",
     "static/media/greenTech.PNG": "/PC_Store/static/media/greenTech.0088799a.PNG",
     "static/media/headaches.PNG": "/PC_Store/static/media/headaches.c0cb0f6a.PNG",
@@ -75,6 +75,7 @@
     "static/media/turbo_01.PNG": "/PC_Store/static/media/turbo_01.827963cc.PNG",
     "static/media/turbo_02.PNG": "/PC_Store/static/media/turbo_02.d8b59162.PNG",
     "static/media/virtualization.PNG": "/PC_Store/static/media/virtualization.0ee61f58.PNG",
+    "static/media/warranty.PNG": "/PC_Store/static/media/warranty.032d70f8.PNG",
     "static/media/windows10.PNG": "/PC_Store/static/media/windows10.6085f0ed.PNG"
   }
 }

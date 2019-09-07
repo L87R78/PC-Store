@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a7e96e77a8e659a4bd304bb7a34f083",
+    "revision": "888a9bcb244dc7506d05cb455ea2e94c",
     "url": "/PC_Store/index.html"
   },
   {
-    "revision": "38814b1c1050c202b68a",
-    "url": "/PC_Store/static/css/main.54f8d4ba.chunk.css"
+    "revision": "f6db14ac972e1293d7b5",
+    "url": "/PC_Store/static/css/main.f997c12e.chunk.css"
   },
   {
-    "revision": "dadcc1fb88cf8ec4e9db",
-    "url": "/PC_Store/static/js/2.68acd3b4.chunk.js"
+    "revision": "0a3ad1dbe28fc0e1d86f",
+    "url": "/PC_Store/static/js/2.2f5457b5.chunk.js"
   },
   {
-    "revision": "38814b1c1050c202b68a",
-    "url": "/PC_Store/static/js/main.572906bc.chunk.js"
+    "revision": "f6db14ac972e1293d7b5",
+    "url": "/PC_Store/static/js/main.b7af6dc7.chunk.js"
   },
   {
     "revision": "b3fac533d43be5d34217",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PC_Store/static/media/gaming_media.e7e9ae5d.PNG"
   },
   {
-    "revision": "352039bfccb9ae52e34d1d8fcaede4ee",
-    "url": "/PC_Store/static/media/geforce.352039bf.PNG"
+    "revision": "f26f2d552a10f5d89dcd85d564bc5708",
+    "url": "/PC_Store/static/media/geforce.f26f2d55.PNG"
   },
   {
     "revision": "8723f77203571e3163c8789c603aca5e",
@@ -290,6 +290,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ee61f589091810ce661bb1880817297",
     "url": "/PC_Store/static/media/virtualization.0ee61f58.PNG"
+  },
+  {
+    "revision": "032d70f84327b93ac93ffa67e555af80",
+    "url": "/PC_Store/static/media/warranty.032d70f8.PNG"
   },
   {
     "revision": "6085f0ed81af46053629054529f4091f",
