@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eeaf358c7d85428d9562dafb87a8a214",
+    "revision": "417f9700f0c3c12f735c68429ca1f33a",
     "url": "/PC_Store/index.html"
   },
   {
-    "revision": "f76be1025a026e0cc91f",
-    "url": "/PC_Store/static/css/main.d8bbc8d4.chunk.css"
+    "revision": "f2672e4bdfac928bd095",
+    "url": "/PC_Store/static/css/main.2e436ad3.chunk.css"
   },
   {
     "revision": "dadcc1fb88cf8ec4e9db",
     "url": "/PC_Store/static/js/2.68acd3b4.chunk.js"
   },
   {
-    "revision": "f76be1025a026e0cc91f",
-    "url": "/PC_Store/static/js/main.5ceaa86f.chunk.js"
+    "revision": "f2672e4bdfac928bd095",
+    "url": "/PC_Store/static/js/main.2fbfcf5d.chunk.js"
   },
   {
     "revision": "b3fac533d43be5d34217",
     "url": "/PC_Store/static/js/runtime~main.d2e3278c.js"
+  },
+  {
+    "revision": "91e65ba3a1ef980cfac79e56e3c22f06",
+    "url": "/PC_Store/static/media/CPU.91e65ba3.PNG"
   },
   {
     "revision": "5f838acf72f59b9d1a053bba2d5fb926",
@@ -26,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ecd5e77e760fc0b43205f17421853822",
     "url": "/PC_Store/static/media/PCI.ecd5e77e.PNG"
+  },
+  {
+    "revision": "1e991f8497d4811d00605ec930252d8b",
+    "url": "/PC_Store/static/media/PC_pro.1e991f84.PNG"
   },
   {
     "revision": "cfff524ff0bc1d978aad9150a1434bd6",
@@ -108,8 +116,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PC_Store/static/media/features_08.4af92663.PNG"
   },
   {
+    "revision": "b70f0785c6f5fc44678837adab71e269",
+    "url": "/PC_Store/static/media/fullHD.b70f0785.PNG"
+  },
+  {
     "revision": "e7e9ae5db2d82a1dd75b35cad6e27044",
     "url": "/PC_Store/static/media/gaming_media.e7e9ae5d.PNG"
+  },
+  {
+    "revision": "352039bfccb9ae52e34d1d8fcaede4ee",
+    "url": "/PC_Store/static/media/geforce.352039bf.PNG"
   },
   {
     "revision": "8723f77203571e3163c8789c603aca5e",
@@ -136,8 +152,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PC_Store/static/media/hyperTech.a92460e2.PNG"
   },
   {
+    "revision": "f1e382140087999c9ca6b0396fb73e05",
+    "url": "/PC_Store/static/media/keyboard.f1e38214.PNG"
+  },
+  {
     "revision": "c81bd0b749c7110bdc67f3bb154cbf03",
     "url": "/PC_Store/static/media/laptops.c81bd0b7.PNG"
+  },
+  {
+    "revision": "8982f9e435c226a0f74770518e188a57",
+    "url": "/PC_Store/static/media/light.8982f9e4.PNG"
+  },
+  {
+    "revision": "89540c7f662e75dde1d7c0006674315c",
+    "url": "/PC_Store/static/media/lightning.89540c7f.PNG"
   },
   {
     "revision": "0a59e67337f09685790379cdd05e2f14",
@@ -146,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "524484bf3da207c09b163ebcba4afefe",
     "url": "/PC_Store/static/media/memory.524484bf.PNG"
+  },
+  {
+    "revision": "deb8418926ae4a0108e3010dfa54e5ab",
+    "url": "/PC_Store/static/media/memory.deb84189.PNG"
   },
   {
     "revision": "9de2fa8e003658bd34d2fbb70f2579f4",
@@ -158,6 +190,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4fcb86cad744b340d02777515fd2281d",
     "url": "/PC_Store/static/media/num.4fcb86ca.PNG"
+  },
+  {
+    "revision": "52ddab10450dc13e084b194c344db96e",
+    "url": "/PC_Store/static/media/nvidia.52ddab10.PNG"
   },
   {
     "revision": "a10b08490b24eb3115171adb2dad939c",
@@ -254,5 +290,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ee61f589091810ce661bb1880817297",
     "url": "/PC_Store/static/media/virtualization.0ee61f58.PNG"
+  },
+  {
+    "revision": "6085f0ed81af46053629054529f4091f",
+    "url": "/PC_Store/static/media/windows10.6085f0ed.PNG"
   }
 ]);
