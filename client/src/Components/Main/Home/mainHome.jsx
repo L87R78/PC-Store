@@ -8,6 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div className="bg_home">
+                <h2>YES YES YES</h2>
                 <div className="center_image_home">
                   
                     <div className="links_products_home">
