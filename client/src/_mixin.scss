@@ -1,0 +1,878 @@
+@import "./variables_background_images";
+@import "./variables_color";
+
+@mixin allBackgrondImagesSizing {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+@mixin background_image_home {
+  background-image: $home_background;
+  @include allBackgrondImagesSizing;
+}
+
+@mixin easeOut {
+  transition: all 1s ease-out;
+}
+
+@mixin btn_buy {
+  margin-left: 10px;
+  padding: 2px;
+  background: $primery_color;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Monda", sans-serif;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+    background-color: $btnBuyPC;
+  }
+}
+
+@mixin btn_back {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px;
+  background: $header_background;
+  border-radius: 3px;
+
+  span {
+    font-family: "Monda", sans-serif;
+  }
+}
+@mixin sizingBody {  
+  max-width: 100%; 
+  margin-bottom: 1rem;
+  height: auto;
+  background-color: white;
+  min-height: calc(100vh - 20px);
+}
+@mixin zoomEffectGameCart {
+  transition: transform .2s;
+  background: white;
+  z-index: 999;
+
+  &:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1);  
+  }
+}
+
+@mixin nav_menu_components_phone_and_tablet {
+  .big_box_components {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    //margin: 0 2rem;
+    //border-radius: 0 0 5px 5px;
+    background: $primery_color;
+    .navProductsParrent {
+      position: relative;
+      height: auto;
+      width: 220px;
+      .link_menu {
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: black;
+          font-family: "Teko", sans-serif;
+          font-size: 23px;
+        }
+      }
+      .drop_down_menu_items {
+        li {
+          list-style: none;
+          a {
+            float: none;
+            color: $header_links_color;
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+            text-align: left; 
+            font-size: 17px; 
+            .fas {
+              position: absolute;
+              padding-top: 6px;
+              right: 3px;
+              color: $header_background;
+              font-size: 13px;
+            } 
+            &:hover {
+              color: rgb(0, 140, 255);
+            }
+          }
+        }
+        .drop_down_menu_items_item {
+          a {
+            font-size: 14px;
+          }
+          .btn_items_item { 
+            font-family: "Teko", sans-serif;
+            width: 100%;
+            color: $header_links_color;
+            background: white;
+            font-size: 18px;
+            text-align: left;
+            border: none;
+            padding: 4px 0 0 15px;
+            cursor: pointer;
+            &:hover {
+              background: rgba(176, 221, 233, 0.329);
+            }
+          }
+        }
+      }
+      .drop_down_menu_items {
+        border: 1px solid $border;
+        background: white;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border-left: 1px solid rgba(128, 128, 128, 0.267);
+        border-right: 1px solid rgba(128, 128, 128, 0.267);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+        a {
+          font-family: "Monda", sans-serif;
+          font-size: 15px;
+          &:hover {
+            background: white;
+            color: $header_links_color;
+          }
+        }
+      }
+    }
+  }
+}
+@mixin nav_menu_components_laptop_and_desktop {
+  .big_box_components {
+    display: flex;
+    justify-content: space-evenly;
+    background: $primery_color; 
+    .navProductsParrent {
+      height: 41px;
+      width: 220px;
+ 
+      .link_menu {
+        text-align: center;
+        margin-top: 3px;
+        padding-top: 4px;
+        a {
+          text-decoration: none;
+          color: black;
+          font-family: "Teko", sans-serif;
+          font-size: 23px;
+        }
+      }
+      .drop_down_menu_items {
+        li {
+          list-style: none;
+          a {
+            color: $header_links_color;
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+            text-align: left;
+            font-size: 17px;
+            .fas {
+              position: absolute;
+              right: 3px;
+              top: 12px; 
+              color: $header_background;
+              font-size: 12px;
+            }
+            &:hover {
+              color: rgb(0, 140, 255);
+            }
+          }
+        }
+        .drop_down_menu_items_item {
+          display: block;
+          a {
+            font-size: 14px;
+          }
+        
+          .btn_items_item {
+            font-family: "Teko", sans-serif;
+            width: 100%;
+            color: $header_links_color;
+            font-size: 18px;
+            border: none;
+            text-align: left;
+            background: white;
+            padding: 4px 0 0 15px;
+           
+            cursor: pointer;
+            &:hover {
+              background: rgba(176, 221, 233, 0.329);
+            }
+          }
+        }
+      } 
+      .drop_down_menu_items {
+        background: white;
+        position: relative;
+        display: block;
+        height: auto;
+        border-left: 1px solid rgba(128, 128, 128, 0.267);
+        border-right: 1px solid rgba(128, 128, 128, 0.267);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+        &:last-child {
+          border-radius: 0 0 5px 5px;
+        }
+        a {
+          font-family: "Monda", sans-serif;
+          font-size: 15px;
+          &:hover {
+            background: white;
+            color: $header_links_color;
+          }
+        }
+      }
+    }
+  }
+}
+@mixin detailed_specifications {
+  padding-bottom: 0.5rem;
+  max-width: 80%;
+  border-bottom: 1px solid $borderInfoProduct;
+  margin: 1rem auto;
+  display: flex;
+  color: $colorTextInfoProduct;
+  font-family: "Monda", sans-serif;
+  justify-content: space-between;
+}
+@mixin current_component_clicked_on_parrent {
+  .current_component_clicked_on_parrent {
+    background: white;
+    font-family: "Teko", sans-serif;
+    padding: 0 1rem; 
+    height: 100vh;
+    overflow-y: scroll; 
+    .current_componentTop { 
+      button { 
+        display: block;
+        border: none;
+        font-family: "Monda", sans-serif;
+        padding: 0 4px;
+        color: $header_background;
+        font-size: 15px; 
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 0 8px 0 8px;
+
+        &:hover {
+          background: $header_background;
+          color: white;
+        }
+      }
+
+      margin-bottom: 1rem;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1rem;
+
+      .name_and_btnReadMore {
+        display: flex;
+        align-items: flex-end;
+        span {
+          font-family: "Monda", sans-serif;
+          font-weight: bold;
+        }
+        .read_more_button {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-family: "Monda", sans-serif;
+          color: $header_background;
+          &:hover {
+            color: $header_links_color;
+          }
+
+          .fas {
+            margin-left: 3px;
+          }
+        }
+      }
+
+      .ordeyBy {
+        background-color: $bodyColor;
+        border-radius: 2px;
+        height: 30px;
+        width: 150px;
+        .drop_down_ordeyBy {
+          width: 150px;
+          border: none;
+          padding: 2px;
+          &:first-child {
+            background-color: $bodyColor;
+            font-family: "Monda", sans-serif;
+            font-size: 13px;
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+    .current_component_childs {
+      .allChilds {
+        &.hide {
+          display: none;
+        }
+      }
+
+      .image_and_boxPrice_All_bosex {
+        //motherboards
+        .image_and_info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; 
+          align-items: center;
+          border-top: 1px solid $borderInfoProduct;
+
+          .product_name {
+            margin-top: 2rem;
+            text-align: center;
+          }
+          .image_and_buy {
+            margin-top: 2rem;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+            .image {
+              img {
+                max-width: 300px;
+                max-height: 300px;
+              }
+            }
+            .box_buy {
+              display: flex;
+              flex-direction: column;
+              margin: 1rem;
+              .price_and_btnBuy {
+                display: flex;
+                padding: 0 0.5rem;
+                background: #f0f0f0;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                .price {
+                  span {
+                    font-size: 35px;
+                    color: $header_background;
+                    font-family: "Monda", sans-serif;
+                  }
+                }
+                .btnCart {
+                  margin-top: 1rem;
+                  button {
+                    background: $btnBuyPC;
+                    border-radius: 2px;
+                    width: 130px;
+                    margin: 2px auto;
+                    font-size: 22px;
+                    height: 40px;
+                    padding: 2px;
+                    border: none;
+                    cursor: pointer;
+                    font-family: "Monda", sans-serif;
+                    color: white;
+                    &:hover {
+                      background: rgba(71, 136, 70, 0.815);
+                    }
+                  }
+                  span {
+                    display: block;
+                    color: $btnBuyPC;
+                    font-family: "Monda", sans-serif;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    .fas {
+                      margin-right: 2px;
+                      color: rgba(128, 128, 128, 0.637);
+                    }
+                  }
+                }
+              }
+              .credit {
+                padding: 1rem;
+                background: #dbdbdb;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                p {
+                  font-family: "Monda", sans-serif;
+                  color: $header_background;
+                  font-size: 14px;
+                  span {
+                    font-size: 18px;
+                    font-weight: bold;
+                  }
+                }
+              }
+              .box_finance {
+                padding: 1rem;
+                background: #dbdbdb;
+                border-top: 2px solid $borderInfoProduct;
+                p {
+                  color: $header_background;
+                  font-family: "Monda", sans-serif;
+                  margin-right: 5px;
+                  font-size: 14px;
+                  span {
+                    font-size: 18px;
+                    font-weight: bold;
+                  }
+                }
+                .finace {
+                  span {
+                    .fas {
+                      color: $header_background;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .info {
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+            text-align: center;
+            span {
+              display: block;
+              margin-top: 0.5rem;
+              font-family: "Monda", sans-serif;
+              color: $colorTextInfoProduct;
+              font-size: 14px;
+
+              &:last-child {
+                margin-bottom: 2rem;
+              }
+            }
+            .img_memory {
+              width: 500px;
+            }  
+          }
+        }
+        .specifications {
+          width: 100%;
+          text-align: center;
+          border-bottom: 1px solid $borderInfoProduct;
+          line-height: 0.1em;
+          margin: 10px 0 20px;
+
+          span {
+            background: #fff;
+            padding: 0 10px;
+            font-family: "Monda", sans-serif;
+          }
+        }
+        .box_specifications {
+          width: 100%;
+          .component {
+            margin: 1rem auto;
+            padding: 0.5rem 0;
+            max-width: 80%;
+            border-bottom: 1px solid red;
+            border-top: 1px solid red;
+            display: flex;
+
+            justify-content: space-between;
+            span {
+              color: rgb(36, 33, 33);
+              font-size: 21px;
+            }
+          }
+          .specifications_items {
+            @include detailed_specifications();
+            span {
+              &:last-child {
+                width: 60%;
+                text-align: end;
+              }
+            }
+            &:last-child {
+              border-bottom: none;
+              margin-bottom: 3rem;
+            }
+          }
+        }
+        .why_buy_bild {
+          width: 100%;
+          margin: 2rem auto;
+          text-align: center;
+          border-top: 1px solid $borderInfoProduct;
+          h3 {
+            margin: 1rem auto;
+            text-transform: uppercase;
+          }
+          img {
+            max-width: 300px;
+            max-height: 300px;
+          }
+          h5 {
+            margin: 2rem auto;
+            color: rgb(36, 33, 33);
+          }
+          span {
+            font-family: "Monda", sans-serif;
+            color: $colorTextInfoProduct;
+            font-size: 14px;
+          }
+        }
+        .overclock {
+          width: 100%;
+          text-align: center;
+          margin: 2rem auto;
+          img {
+            max-width: 200px;
+            max-height: 200px;
+          }
+          span {
+            display: block;
+            color: $colorTextInfoProduct;
+          }
+          a {
+            text-decoration: none;
+            color: rgb(58, 150, 180);
+            font-size: 19px;
+            font-weight: bold;
+          }
+        }
+        // end motherboards
+
+        h4 {
+          color: rgba(36, 33, 33, 0.699);
+          margin-top: 1rem;
+          text-transform: uppercase;
+          font-size: 14px;
+          text-align: center;
+        }
+        .gaming_media {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin: 2rem auto;
+          h3 {
+            text-align: center;
+          }
+          img {
+            max-width: 300px;
+            max-height: 300px;
+          }
+          .images_or_boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 1rem;
+            img {
+              max-width: 300px;
+              max-height: 300px;
+            }
+            .nvlink_text {
+              margin-bottom: 1rem;
+              width: 350px;
+              span {
+                display: block;
+                text-align: center;
+                padding: 0 1rem;
+              }
+            }
+            .img_nvlink_text {
+              text-align: center;
+              max-width: 300px;
+              max-height: 200px;
+              margin: 0.5rem;
+            }
+            .gpu_boxes {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              width: 100%;
+              h4 {
+                text-align: start;
+              }
+              .gpu,
+              .memory,
+              .cover {
+                width: 250px;
+                margin: 1rem;
+                text-align: start;
+              }
+            }
+          }
+          span {
+            text-align: center;
+            color: $colorTextInfoProduct;
+            margin-top: 1rem;
+            a {
+              text-decoration: none;
+              color: rgb(58, 150, 180);
+              font-size: 13px;
+              font-weight: bold;
+            }
+            &:last-child {
+              margin-bottom: 2rem;
+            }
+          }
+        }
+        .features {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          text-align: center;
+          .first_child,
+          .second_child {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            width: 250px;
+            margin-top: 2rem;
+            img {
+              width: 100px;
+              height: 80px;
+            }
+            span {
+              color: $colorTextInfoProduct;
+            }
+          }
+          .first_child_gpu,
+          .second_child_gpu,
+          .third_child_gpu,
+          .fourth_child_gpu {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            width: 250px;
+            span {
+              margin-top: 0;
+            }
+            img {
+              margin-top: 1rem;
+              width: 180px;
+              height: 130px;
+            }
+          }
+          &:last-child {
+            margin-bottom: 2rem;
+          }
+        }
+        .detailed_overview_lenovo {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          text-align: center;
+          margin-bottom: 2rem;
+          
+          .first_child_gpu,
+          .second_child_gpu,
+          .third_child_gpu {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            width: 250px; 
+            background: #F7F7F7;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+            span {
+              color: $colorTextInfoProduct;
+            } 
+            img { 
+              margin-top: 1rem;
+              width: 110px; 
+              height: 100px;
+            }
+          }
+        }
+        .detailed_overview_apple {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          text-align: start;
+          span {
+            color: $colorTextInfoProduct;
+            margin-bottom: 3rem; 
+          }
+          .features_apple {
+            span {
+              display: block;
+              margin: 0;  
+              &:last-child{
+                margin-bottom: 2rem;
+              }         
+            }
+          }
+        }
+      }
+    }
+    .show_readMore_info {
+      padding: 0 0 1rem 1rem;
+      height: auto;
+      font-size: 15px;
+      width: 100%;
+      color: $header_links_color;
+      font-family: "Monda", sans-serif;
+      p {
+        margin-top: 0.5rem;
+      }
+      a {
+        font-weight: bold;
+        color: purple;
+        font-size: 15px;
+      }
+    }
+    .childs_product {
+      &.hide {
+        display: none;
+      }
+      //margin: 1rem 0;
+      display: flex; 
+      justify-content: space-between;
+      border-top: 1px solid $borderInfoProduct;
+      padding: 0.5rem 0;
+
+      .left_side_childs_product {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .child_img {
+          width: 100px;  
+          //cursor: pointer; 
+          img {
+            width: 80px;
+            height: 80px;
+          }
+        }
+        .child_name {
+          display: flex;
+          flex-direction: column;
+          width: 70%;
+
+          span {
+            color: purple;
+            font-weight: bold;
+          }
+          a {
+            text-decoration: none;
+            color: $header_links_color;
+            cursor: default;
+          }
+          .customer_review {
+            color: rgba(128, 128, 128, 0.747);
+            font-size: 14px;
+
+            .fas {
+              color: #f29312;
+              margin-left: 2px;
+              font-size: 11px;
+            }
+          }
+        }
+      }
+      .right_side_childs_product {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .child_price {
+          width: 150px;
+          height: 100px;
+          text-align: center;
+          h4 {
+            font-size: 12px;
+            margin-top: 2rem;
+            color: $header_background;
+            span {
+              font-size: 15px;
+            }
+          }
+          h6 {
+            color: $header_background;
+            span {
+              color: $header_links_color;
+            }
+          }
+        }
+        .child_btnAddToCart {
+          text-align: center;
+          width: 100px;
+          height: 100px;
+          .wish_list {
+            margin: 1px auto;
+            button {
+              border-radius: 50px;
+              width: 30px;
+              height: 30px;
+              border: 1px solid rgba(128, 128, 128, 0.274);
+              background: white;
+              cursor: pointer;
+              .fas {
+                color: rgba(128, 128, 128, 0.637);
+              }
+              &:hover {
+                .fas {
+                  color: rgb(128, 128, 128);
+                }
+              }
+            }
+          }
+          .btnCart {
+            button {
+              background: $btnBuyPC;
+              border-radius: 2px;
+              width: 90px;
+              margin: 2px auto;
+              height: 30px;
+              padding: 2px;
+              border: none;
+              cursor: pointer;
+              font-family: "Monda", sans-serif;
+              color: white;
+              &:hover {
+                background: rgba(71, 136, 70, 0.815);
+              }
+            }
+          }
+          span {
+            color: $btnBuyPC;
+            font-family: "Monda", sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            .fas {
+              margin-right: 2px;
+              color: rgba(128, 128, 128, 0.637);
+            }
+          }
+        }
+      }
+    }
+  }
+}
